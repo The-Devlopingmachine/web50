@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <!-- Linking the stylesheet-->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div>
+            <a href="googleimagesearch.html" class="links"> Google Image Search </a>
+            <br>
+            <a href="googleadvancedsearch.html" class="links"> Google Advanced Search</a>
+        </div>
+        <div class="center-item">
+            <form action="https://www.google.com/search?q">
+                <embed type="image/svg+xml" src="google-1-1.svg" class="svg"/>
+                <input type = "text" class = "input" name ="q" value = "Search Google or type url">
+                <!-- Making the button work using js -->
+                <button type="button" class = extra-button value="I'm Feeling lucky" onclick="openlink()"> I'm Feeling Lucky</button>
+                <script>
+                    function openlink()
+                    {
+                        window.open("https://www.google.com/doodles/")
+                    }
+                </script>
+                <button type="button" class = extra-button2 onclick="openlink2()"> What's new </button>
+                <script>
+                    function openlink2()
+                    {
+                        window.open("https://news.google.com/topstories?hl=en-IN&gl=IN&ceid=IN:en")
+                    }
+                </script>
+            </form>
+        </div>
+    </body>
+</html>
