@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Google Advanced Search </title>
+        <link rel = "stylesheet" href = "styles.css">
+    </head>
+    <body style="background-color: whitesmoke;">
+        <div class = "top-nav" style="top: 0%;">
+            <!-- The google svg at the extreme list with faded grey background -->
+            <embed type="image/svg+xml" src="google-1-1.svg" class="svg"/>
+            <div class="advancelinks">
+               <span style="left: 0; font-size: 20px; font-weight: 300; color: red;"> Advance Link </span>
+                <a href="googleimagesearch.html" class="advance-links" style="color: black; top: 0%; display: inline; float: right; padding: 10px; font-size: 18px; font-weight: 200;"> Google Image Search </a>
+                <a href="index.html" class="advance-links" style="color: black; display: inline; float: right; padding: 10px; font-size: 18px; font-weight: 200;"> Google Search</a>
+            </div>
+            <div class="space-link">
+                <!-- This block is intended to add some additonal space -->
+            </div>
+        </div>
+        
+        <!-- Let's have the contet inside of a flex-box div-->
+        <div class="flexed" style= "height: 350px;">
+            <div class="left">
+                <span class="space" style="font-size: 18px; font-weight: 200;"> Find pages with </span>
+                <br>
+                <span class="item">
+                    all these words:
+                </span>
+                <br>
+                <span class="item">
+                    This exacy word or phrase
+                </span>
+                <br>
+                <span class="item">
+                    any of these words
+                </span>
+                <br>
+                <span class="item">
+                    none! of these words
+                </span>
+                <br>
+                <span class="item">
+                    number's ranging from
+                </span>
+            </div>
+            <div class="center" style="margin-top: 5.5%;">
+                <!-- here we will create the form input fields for every input we provide to them-->
+                
+                <!-- Form 1-->
+                <form>
+                    <input type="text">
+                </form>
+                <br>
+                <!-- Form 2-->
+                <form>
+                    <input type = "text">
+                </form>
+                <br>
+                <!-- Form 3-->
+                <form>
+                    <input type="text">
+                </form>
+                <br>
+                <!-- Form 4-->
+                <form>
+                    <input type="text">
+                </form>
+                <br>
+                <!-- From 5-->
+                <form>
+                    <input type="number" id=left> <span> to </span> <input type="number" id=right>
+                </form>
+            </div>
+            <!-- The right side span elements-->
+            <div class="right">
+                <span style="font-size: 18px; font-weight: 200;">
+                    To do this in the search box.
+                </span>
+                <br>
+                <span>
+                    Type the important words: tri-colour rat terrier
+                </span>
+                <br>
+                <span>
+                    Put exact words in quotes: "rat terrier"
+                </span>
+                <br>
+                <span>
+                    Type OR between all the words you want: miniature OR standard
+                </span>
+                <br>
+                <span>
+                    Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                </span>
+                <br>
+                <span>
+                    Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011
+                </span>
+            </div>
+        </div>
+
+
+        <!-- Coming on to the next part of the advanced search page the form no. 2-->
+        <div class="flexed">
+            <!-- Reapeating the left center and right formats-->
+            <div class="left">
+                <span style="font-size: 18px; font-weight: 300;"> Then narrow your results by... </span>
+                <br>
+                <span> language: </span>
+                <br>
+                <span> region: </span>
+                <br>
+                <span> last update: </span>
+                <br>
+                <span> site or domain: </span>
+                <br>
+                <span> terms appearing: </span>
+                <br>
+                <span> Safe Search </span>
+                <br>
+                <span> File type</span>
+                <br>
+                <br>
+                <span> Usage rights </span>
+            </div>
+
+                    <!-- The center Div-->
+            <div class="center" style="margin-top: 7%;">
+                <!-- The firt form with select and option elements-->
+                <form>
+                    <select id = "select">
+                        <option value="option1"> English</option>
+                        <option value="option2"> Hindi</option>
+                        <option value="option3"> Punjabi</option>
+                        <option value="option4"> Urdu</option>
+                        <option value="option5"> Arabic</option>
+                    </select>
+                </form>
+                <br>
+
+                <!-- Form 2-->
+                <form>
+                    <select id = "select">
+                        <option value="option1"> any region</option>
+                        <option value= "option2"> India </option>
+                        <option value="option3"> America</option>
+                        <option value="option4"> Florida</option>
+                    </select>
+                </form>
+                <br>
+
+                <!-- Form 3-->
+                <form>
+                    <select id = "select">
+                        <option value="option1"> anytime </option>
+                        <option value="option2">last month</option> 
+                        <option value="option3"> last week</option>
+                        <option value="option4"> last 24 hours</option>
+                        <option value="option5"> last 1 hour </option>
+                    </select>
+                </form>
+                <br>
+
+                <!-- Form 4 -->
+                <form>
+                    <input type="text">
+                </form>
+                <br>
+
+                <!-- Form 5 -->
+                <form>
+                    <select id = "select">
+                        <option value="opton1"> anywhere on the page </option>
+                        <option value="option2"> anywhere on the parhgrah</option>
+                        <option value="option3"> anywhere on the first line</option>
+                        <option value="option4"> anywhere on the url</option>
+                    </select>
+                </form>
+                <br>
+
+                <!-- Form 6 -->
+                <form>
+                    <select id = "select">
+                        <option value="option1"> Show explicit result </option>
+                        <option value="option2"> Hode explicit result</option>
+                    </select>    
+                </form>
+                <br>
+                
+                <!-- Form 7 -->
+                <form>
+                    <select id = "select">
+                        <option value="option1"> (.)PDF </option>
+                        <option value="option2"> (.)TXT </option>
+                        <option value="option3"> (.)PPT </option>
+                    </select>
+                </form>
+                <br>
+
+                <!-- Form 8 -->
+                <form>
+                    <select id = "select">
+                        <option value="option1"> filter by user license </option>
+                        <option value="option2"> free to use </option>
+                        <option value="option3"> free to share </option>
+                    </select>
+                </form>
+                <br>
+
+            </div>
+            <div class="right" style="margin-top: 6%;">
+                
+                <span style="margin-top: 2%;"> Find pages in the language that you select.
+                </span>
+                <br>
+                <span> Find pages published in a particular region. </span>
+                <br>
+                <span> Find pages updated within the time that you specify. </span>
+                <br>
+                <span> Search one site (like wikipedia.org ) or limit your results to a domain like .edu, .org or .gov </span>
+                <br>
+                <span>
+                    Search for terms in the whole page, page title or web address, or links to the page you're looking for.
+                </span>
+                <br>
+                <span>
+                    Tell SafeSearch whether to filter sexually explicit content.
+                </span>
+                <br>
+                <span>
+                    Find pages in the format that you prefer.
+                </span>
+                <br>
+                <span> Find pages that you are free to use yourself. </span>
+                <br>
+                <br>
+                <button> Advanced Search. </button>
+                <br>
+                <br>
+            </div>
+        </div>
+        
+    </body>
+</html>
